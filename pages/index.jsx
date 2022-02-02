@@ -20,6 +20,7 @@ const index = ({ posts }) => {
             </Link>
             <p>date : {post.date}</p>
             <p>fileName : {post.id}</p>
+            <p>tag : {JSON.stringify(post.tag)}</p>
           </div>
         );
       })}
